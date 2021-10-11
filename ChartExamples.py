@@ -42,28 +42,28 @@ lblChart3 = tk.Label(text = "Круговая диаграмма")
 lblChart3.place(x=170, y=222)
 
 # Добавление кнопки и метки для графика 4
-btnChart4 = tk.Button(window, text = "График 4", font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart)
+btnChart4 = tk.Button(window, text = "График 4", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart2)
 btnChart4.place(x=40, y=265, width=90, height=30)
 
-lblChart4 = tk.Label(text = "Описание графика")
+lblChart4 = tk.Label(text = "Нормальное распределение - 3 графика")
 lblChart4.place(x=170, y=272)
 
 # Добавление кнопки и метки для графика 5
-btnChart5 = tk.Button(window, text = "График 5", font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart)
+btnChart5 = tk.Button(window, text = "График 5", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
 btnChart5.place(x=40, y=315, width=90, height=30)
 
 lblChart5 = tk.Label(text = "Описание графика")
 lblChart5.place(x=170, y=322)
 
 # Добавление кнопки и метки для графика 6
-btnChart6 = tk.Button(window, text = "График 6", font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart)
+btnChart6 = tk.Button(window, text = "График 6", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
 btnChart6.place(x=40, y=365, width=90, height=30)
 
 lblChart6 = tk.Label(text = "Описание графика")
 lblChart6.place(x=170, y=372)
 
 # Добавление кнопки и метки для графика 7
-btnChart7 = tk.Button(window, text = "График 7", font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart)
+btnChart7 = tk.Button(window, text = "График 7", font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
 btnChart7.place(x=40, y=415, width=90, height=30)
 
 lblChart7 = tk.Label(text = "Описание графика")
